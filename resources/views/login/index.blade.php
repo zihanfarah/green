@@ -32,6 +32,9 @@
             <br>
             <br>
                 Don't have an account? <a href="{{ route('register') }}" class="">Register here</a>
+                <br>
+                <a href="{{ url('auth/google') }}" class="btn btn-primary margin-10" role="button" id="btn-glogin"><i class="fab fa-google" aria-hidden="true"></i>&nbsp;Google</a>
+                <a href="{{ url('auth/twitter') }}" class="btn btn-primary " role="button"><i class="fab fa-twitter" aria-hidden="true"></i>&nbsp;Twitter</a>
             </form>
         </main>
     </div>
